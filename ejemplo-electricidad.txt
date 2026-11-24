@@ -1,0 +1,10 @@
+Amperio: Unidad de medida de la intensidad de corriente eléctrica.
+Batería: Dispositivo que almacena energía química y suministra electricidad.
+Circuito: Conjunto de componentes conectados por los que circula corriente eléctrica.
+Diodo: Componente que permite el paso de corriente principalmente en un sentido.
+Electrón: Partícula subatómica que posee una carga eléctrica negativa.
+Fusible: Elemento de protección que interrumpe el circuito al superar una intensidad determinada.
+Generador: Dispositivo que transforma otra forma de energía en energía eléctrica.
+Hercio: Unidad de medida de la frecuencia de un fenómeno periódico.
+Interruptor: Dispositivo que permite abrir o cerrar un circuito eléctrico.
+Julio: Unidad de medida de la energía en el Sistema Internacional.
