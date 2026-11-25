@@ -96,3 +96,12 @@ Pruebas V1.4: Chromium con HTML cargado en memoria, ejemplo de electricidad de d
 - La vista previa muestra las preguntas completas por nivel y banco, y los errores de ubicación se explican sin mostrar NaN.
 - Prueba de navegador con 104 filas sintéticas, dos niveles y dos bancos: 104 aceptadas, cuatro letras pendientes; recuperación del banco del segundo nivel con almacenamiento simulado.
 - Conserva la clave de almacenamiento de roscos personales y el modo PDI de V2.0. El texto exacto de la incidencia y el despliegue real quedan pendientes de prueba.
+
+
+## V2.2 — Turnos de duelo visibles en PDI
+
+- Azul y naranja para los equipos, con el equipo activo identificado en el marcador, el rosco y la pregunta. Se mantienen los colores de acierto, error y letra actual.
+- Borde de pantalla, cartel de 1,5 s y cuenta atrás opcional de 3 s. Durante el aviso no corre el cronómetro ni se admiten respuestas.
+- Efectos de sonido diferentes para acierto, fallo, paso, turno, últimos diez segundos y fin. Botón de sonido durante el juego.
+- Opciones de duelo configurables antes de la partida; cuenta atrás desactivada de inicio. Sin cambios en la colección guardada, los bancos ni el formato de importación.
+- El HTML autónomo generado desde esta versión incluye las mejoras. El subdirectorio histórico `andalucia/` permanece intacto.
