@@ -164,3 +164,12 @@ Al pulsar Guardar rosco, después de confirmar el almacenamiento local, se abre 
 - La edición y configuración incluyen el identificador del rosco; los personales solo se recuperan en el navegador donde se guardaron.
 - Confirmación al salir de una partida activa; al volver en la misma pestaña se conserva la partida en pausa, si no se ha iniciado otra. Al recargar no se recupera la partida: se vuelve a configuración.
 - Se mantienen las protecciones de guardado y las confirmaciones ante preguntas pegadas sin aceptar. Los pasos internos del asistente conservan sus propios botones.
+
+
+## V2.11 — Crear un nuevo rosco sin bloqueo
+
+- Crear con IA abre una configuración nueva por defecto.
+- Botones superiores Crear nuevo rosco y Continuar último rosco (si existe).
+- Continuar restaura el último trabajo aceptado; su estructura queda protegida.
+- Crear otro no elimina los roscos guardados; solo descarta contenido no aceptado previa confirmación.
+- Se conserva el mismo almacenamiento local y la edición de roscos anteriores desde Mis roscos.
