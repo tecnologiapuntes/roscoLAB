@@ -104,3 +104,13 @@ Reconstruida a partir de V2.1 (los archivos de V2.2/V2.3 del otro chat no estaba
 - Curso antes de materia en el editor y el asistente IA. Listado dependiente del curso, orden alfabético y opción personalizada. Conserva denominaciones antiguas al editar. Bachillerato agrupa las modalidades por curso.
 - Referencias curriculares: Órdenes de 30 de mayo de 2023, BOJA 104 de 2/6/2023: Infantil https://www.juntadeandalucia.es/boja/2023/104/38 ; Primaria https://www.juntadeandalucia.es/boja/2023/104/39 ; ESO https://www.juntadeandalucia.es/boja/2023/104/36 ; Bachillerato https://www.juntadeandalucia.es/boja/2023/104/37 . Se incluyen también opciones educativas y personalizadas; no constituye una certificación de la oferta de cada centro.
 - Prueba Chromium con contenido HTML cargado directamente: selección, prompt, nombres personalizados, cambio de turno, cuenta atrás, cronómetro y deshacer. Pendiente prueba de sonido audible, GitHub Pages y PDI física.
+
+
+## V2.4 — Modalidades de juego
+
+- Asistente de nueva partida en cuatro pasos: modalidad, contenidos, equipos/bancos y opciones.
+- Individual/cooperativo y duelo conservan las reglas anteriores. Supervivencia permite una persona/clase o dos equipos, de 1 a 10 vidas; cada fallo resta una y pasar no resta.
+- Entrenamiento sin tiempo, con corrección y explicación si el banco la incluye. Rosco exprés sortea 5, 10 o 15 preguntas de un banco válido sin modificarlo.
+- Segunda oportunidad repite los errores (no las pendientes) de la última partida del rosco durante la sesión abierta. En duelo se puede elegir el equipo. También aparece en resultados.
+- Se conservan las claves de almacenamiento y la edición histórica de Andalucía.
+- Pruebas Chromium sobre HTML cargado en memoria con almacenamiento simulado; no se ha probado la publicación real ni una PDI física.
