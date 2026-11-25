@@ -1,0 +1,11 @@
+Nivel | Banco | Letra | Tipo | Pregunta | Respuesta | Explicación | Fuente
+1 | 1 | A | Empieza | Unidad de medida de la intensidad de corriente eléctrica. | Amperio | Su símbolo es A. |
+1 | 1 | B | Empieza | Dispositivo electroquímico que suministra energía a un circuito. | Batería | Transforma energía química en eléctrica. |
+1 | 1 | C | Empieza | Conjunto de componentes conectados por el que puede circular corriente. | Circuito | Debe existir un camino cerrado para que circule corriente continua. |
+1 | 1 | D | Empieza | Componente electrónico que permite el paso de corriente principalmente en un sentido. | Diodo | Un LED es un ejemplo. |
+1 | 1 | E | Empieza | Partícula subatómica con carga eléctrica negativa. | Electrón | Forma parte de los átomos. |
+1 | 1 | F | Empieza | Elemento de protección que se funde al circular una intensidad excesiva. | Fusible | Abre el circuito para protegerlo. |
+1 | 1 | G | Empieza | Dispositivo que transforma otra forma de energía en eléctrica. | Generador | Una dinamo es un ejemplo. |
+1 | 1 | H | Empieza | Unidad del Sistema Internacional utilizada para medir la frecuencia. | Hercio | Su símbolo es Hz. |
+1 | 1 | I | Empieza | Dispositivo que permite abrir o cerrar un circuito eléctrico. | Interruptor | Controla el paso de corriente. |
+1 | 1 | J | Empieza | Unidad de energía del Sistema Internacional cuyo símbolo es J. | Julio | También se emplea para medir trabajo. |
