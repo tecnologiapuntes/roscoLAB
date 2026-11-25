@@ -58,3 +58,12 @@ Pruebas V1.4: Chromium con HTML cargado en memoria, ejemplo de electricidad de d
 - Se puede jugar con al menos dos preguntas válidas del banco seleccionado. Las demás letras se omiten temporalmente sin borrar datos. En duelo se usan las letras válidas comunes a los dos bancos.
 - La configuración informa de las letras omitidas antes de empezar. El HTML autónomo aplica el mismo comportamiento.
 - Guardar confirma el éxito únicamente si el almacenamiento local acepta la escritura.
+
+
+## V1.8 — Interfaz de juego más visual para PDI
+
+- Nueva pantalla de juego con botones grandes para **Correcto**, **Incorrecto** y **Pasapalabra**.
+- Campo de respuesta escrita opcional, manteniendo la corrección automática cuando se pulsa **Comprobar**.
+- Barra superior más clara para PDI: modo presentador, pantalla completa, reiniciar, pausar y finalizar.
+- Pistas ocultas de momento, tal como se pidió.
+- Se mantiene **Ver solución** y **Deshacer** como acciones auxiliares.
