@@ -75,3 +75,14 @@ Pruebas V1.4: Chromium con HTML cargado en memoria, ejemplo de electricidad de d
 - En el editor se muestra un resumen por **nivel** y por **banco** con las preguntas completas de cada uno.
 - Al guardar, Rosco LAB indica cuántas preguntas completas tiene el rosco y avisa si hay niveles sin contenido completo.
 - La pantalla de juego se ajusta mejor de forma automática a distintos tamaños de monitor, pantalla o PDI.
+
+## V2.0 — Selector de temas y modo PDI adaptable
+
+- Ocho temas visuales con vista previa interactiva, independientes del color de cada materia. Tema inicial: **01 · Azul eléctrico**. La preferencia se guarda en `roscolab.v2.palette` sin alterar los roscos almacenados (`roscolab.v1.collection`).
+- Selector disponible en cabecera, configuración de partida y durante el juego. El cronómetro se suspende mientras se elige el tema; se conserva la respuesta escrita y el progreso.
+- El modo presentador se ofrece activado inicialmente en pantallas horizontales de escritorio y se puede desactivar antes o durante la partida. Oculta la cabecera y el pie, aprovecha el espacio de pantalla y conserva el acceso a pantalla completa, tema, reiniciar, pausa y finalizar.
+- El rosco se dimensiona según el espacio real disponible. Se mantienen los botones Correcto, Incorrecto y Pasapalabra y la respuesta escrita opcional. En pantallas verticales se usa una disposición apilada con desplazamiento; las preguntas excepcionalmente largas pueden desplazarse dentro del panel.
+- Se retiran las opciones de pistas y de respuesta exclusiva de la configuración, pues la entrada escrita y los botones manuales están disponibles a la vez.
+- Se sincronizan los cronómetros visibles y se conserva el modo presentador al deshacer. Reiniciar restaura la partida con la misma configuración.
+- Se conserva el generador y el almacenamiento de V1.9; la edición original de Andalucía no cambia.
+- Pruebas con Chromium en resoluciones 800×600, 1024×600, 1366×768, 1920×1080, 2560×1440 y 390×844. Almacenamiento simulado por restricciones del entorno; quedan pendientes la publicación real y una prueba física de PDI.
