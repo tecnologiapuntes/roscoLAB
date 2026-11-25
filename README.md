@@ -114,3 +114,21 @@ Reconstruida a partir de V2.1 (los archivos de V2.2/V2.3 del otro chat no estaba
 - Segunda oportunidad repite los errores (no las pendientes) de la última partida del rosco durante la sesión abierta. En duelo se puede elegir el equipo. También aparece en resultados.
 - Se conservan las claves de almacenamiento y la edición histórica de Andalucía.
 - Pruebas Chromium sobre HTML cargado en memoria con almacenamiento simulado; no se ha probado la publicación real ni una PDI física.
+
+
+## V2.5 — Vista concurso
+
+- En el paso 4 de la configuración de un duelo (también Supervivencia por equipos), se puede elegir Vista clásica o Vista concurso.
+- Dos roscos simultáneos, colores de equipo independientes, cronómetros y marcadores, una pregunta compartida del equipo activo.
+- Cambiar de vista durante el juego conserva tiempos, respuestas, turno y texto escrito. Vista clásica predeterminada.
+- Diseño adaptable y disponible también en el HTML autónomo.
+
+## V2.6 — Editor híbrido sencillo
+
+- Vista Por letras predeterminada, con semáforo y navegación anterior/siguiente; Tabla completa disponible como segunda vista.
+- Pregunta, respuesta y tipo visibles; alternativas, explicación y fuente opcionales en un desplegable de detalles.
+- Progreso por nivel y banco, filtro de pendientes y preguntas por revisar. Los indicadores no verifican la exactitud académica.
+- Autoguardado local tras editar; botón Guardar rosco conservado. Guardado de todos los niveles y bancos en la clave de almacenamiento previa.
+- Solucionario visible junto a Guardar rosco, Completar con IA y Jugar. Más opciones contiene verificación, duplicación de banco/nivel, exportaciones, Mis roscos y Nuevo.
+- Papelera recuperable y copia global JSON de los roscos activos en Mis roscos. Al importar una copia se añaden duplicados independientes sin sustituir los existentes. La copia no incluye la papelera.
+- Historial de versiones y búsqueda/reemplazo avanzado aplazados para mantener el editor simple.
