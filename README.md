@@ -150,3 +150,17 @@ Reconstruida a partir de V2.1 (los archivos de V2.2/V2.3 del otro chat no estaba
 - Importación acumulativa con revisión previa. Al aceptar se guarda en Mis roscos; los datos válidos se conservan.
 - El asistente recuerda el rosco en curso en el mismo navegador. «Crear otro rosco» inicia un proyecto diferente sin borrar el anterior.
 - La configuración estructural queda bloqueada mientras se acumulan preguntas; puede modificarse desde el editor. No se envía material a ningún servicio desde esta opción.
+
+
+## V2.9 · Confirmación de guardado manual
+
+Al pulsar Guardar rosco, después de confirmar el almacenamiento local, se abre una ventana con Jugar ahora, Ir a Mis roscos, Ir a la Biblioteca y Continuar editando. El autoguardado no abre la ventana. Jugar ahora queda desactivado si no existe un banco con al menos dos preguntas válidas. Cerrar con X o Escape conserva el editor. No se cambia el formato de los datos guardados.
+
+
+## V2.10 — Navegación con direcciones propias
+
+- Rutas con `#` para Inicio, Biblioteca, Crear con IA, Mis roscos, Editor, Ayuda, configuración, partida y resultados.
+- Atrás y Adelante mediante historial del navegador, compatible con GitHub Pages sin rutas de servidor.
+- La edición y configuración incluyen el identificador del rosco; los personales solo se recuperan en el navegador donde se guardaron.
+- Confirmación al salir de una partida activa; al volver en la misma pestaña se conserva la partida en pausa, si no se ha iniciado otra. Al recargar no se recupera la partida: se vuelve a configuración.
+- Se mantienen las protecciones de guardado y las confirmaciones ante preguntas pegadas sin aceptar. Los pasos internos del asistente conservan sus propios botones.
