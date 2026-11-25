@@ -97,11 +97,10 @@ Pruebas V1.4: Chromium con HTML cargado en memoria, ejemplo de electricidad de d
 - Prueba de navegador con 104 filas sintéticas, dos niveles y dos bancos: 104 aceptadas, cuatro letras pendientes; recuperación del banco del segundo nivel con almacenamiento simulado.
 - Conserva la clave de almacenamiento de roscos personales y el modo PDI de V2.0. El texto exacto de la incidencia y el despliegue real quedan pendientes de prueba.
 
+## V2.3 — Turnos y selección curricular
 
-## V2.2 — Turnos de duelo visibles en PDI
-
-- Azul y naranja para los equipos, con el equipo activo identificado en el marcador, el rosco y la pregunta. Se mantienen los colores de acierto, error y letra actual.
-- Borde de pantalla, cartel de 1,5 s y cuenta atrás opcional de 3 s. Durante el aviso no corre el cronómetro ni se admiten respuestas.
-- Efectos de sonido diferentes para acierto, fallo, paso, turno, últimos diez segundos y fin. Botón de sonido durante el juego.
-- Opciones de duelo configurables antes de la partida; cuenta atrás desactivada de inicio. Sin cambios en la colección guardada, los bancos ni el formato de importación.
-- El HTML autónomo generado desde esta versión incluye las mejoras. El subdirectorio histórico `andalucia/` permanece intacto.
+Reconstruida a partir de V2.1 (los archivos de V2.2/V2.3 del otro chat no estaban disponibles).
+- Duelo: azul eléctrico y naranja, marcador activo, borde y letras de turno; cartel opcional de 1,5 s y cuenta atrás opcional de 3 s, sin consumir tiempo de juego. Sonidos de acierto, fallo, pase, turno, últimos segundos y final.
+- Curso antes de materia en el editor y el asistente IA. Listado dependiente del curso, orden alfabético y opción personalizada. Conserva denominaciones antiguas al editar. Bachillerato agrupa las modalidades por curso.
+- Referencias curriculares: Órdenes de 30 de mayo de 2023, BOJA 104 de 2/6/2023: Infantil https://www.juntadeandalucia.es/boja/2023/104/38 ; Primaria https://www.juntadeandalucia.es/boja/2023/104/39 ; ESO https://www.juntadeandalucia.es/boja/2023/104/36 ; Bachillerato https://www.juntadeandalucia.es/boja/2023/104/37 . Se incluyen también opciones educativas y personalizadas; no constituye una certificación de la oferta de cada centro.
+- Prueba Chromium con contenido HTML cargado directamente: selección, prompt, nombres personalizados, cambio de turno, cuenta atrás, cronómetro y deshacer. Pendiente prueba de sonido audible, GitHub Pages y PDI física.
