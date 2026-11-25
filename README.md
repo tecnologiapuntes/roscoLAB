@@ -132,3 +132,21 @@ Reconstruida a partir de V2.1 (los archivos de V2.2/V2.3 del otro chat no estaba
 - Solucionario visible junto a Guardar rosco, Completar con IA y Jugar. Más opciones contiene verificación, duplicación de banco/nivel, exportaciones, Mis roscos y Nuevo.
 - Papelera recuperable y copia global JSON de los roscos activos en Mis roscos. Al importar una copia se añaden duplicados independientes sin sustituir los existentes. La copia no incluye la papelera.
 - Historial de versiones y búsqueda/reemplazo avanzado aplazados para mantener el editor simple.
+
+## V2.7 — Imágenes en las preguntas
+
+- En el editor, en cada letra se puede abrir **Añadir imagen (opcional)**. Formato recomendado: horizontal 16:9 o 4:3, por ejemplo 1600 × 900 o 1200 × 900 px. También admite vertical y cuadrado.
+- JPG, PNG y WebP de hasta 10 MB. Se conserva la proporción y se reduce el lado mayor a 1920 px si es necesario. Se conserva PNG si su peso lo permite; las fotografías y los PNG grandes se optimizan en WebP.
+- Los archivos se almacenan en IndexedDB y las preguntas guardan referencias en la colección original. Exportar JSON, la copia de seguridad global de roscos y el HTML autónomo incluye las imágenes incrustadas. El tamaño de las exportaciones aumenta con el número de imágenes. No depende de servicios externos.
+- Vista clásica: imagen encima de la pregunta. Vista concurso: imagen a la izquierda de la pregunta. Contenedores dimensionados según pantalla, `object-fit: contain`, sin recortar ni deformar. Ampliación a pantalla completa con pausa temporal del reloj; Escape o Cerrar vuelve al juego.
+- El editor permite sustituir o retirar una imagen. Los archivos retirados pueden permanecer en IndexedDB para no romper las copias de bancos, la papelera o referencias compartidas. Las copias de seguridad exportan únicamente los recursos de los roscos activos. No se incluyen imágenes en el solucionario impreso de esta versión.
+- No se incluyen todavía audio ni fórmulas. La generación con IA sigue siendo textual; las imágenes se añaden manualmente.
+- Se mantiene la clave original de almacenamiento local. Las imágenes pertenecen al origen web y al navegador: exporta JSON/copia global para moverlas a otro equipo.
+
+## V2.8 — Asistente IA por bancos
+- Se conservan las instrucciones de copia y pega y la generación local experimental.
+- Generación completa o por banco, con numeración explícita y prompt de letras pendientes.
+- Ajustes opcionales de estilo, longitud, dificultad e idioma para la IA externa.
+- Importación acumulativa con revisión previa. Al aceptar se guarda en Mis roscos; los datos válidos se conservan.
+- El asistente recuerda el rosco en curso en el mismo navegador. «Crear otro rosco» inicia un proyecto diferente sin borrar el anterior.
+- La configuración estructural queda bloqueada mientras se acumulan preguntas; puede modificarse desde el editor. No se envía material a ningún servicio desde esta opción.
