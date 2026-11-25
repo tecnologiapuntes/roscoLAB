@@ -51,3 +51,10 @@ Pruebas V1.4: Chromium con HTML cargado en memoria, ejemplo de electricidad de d
 - Opción 1: IA externa recomendada, copia de instrucciones, elección de plataforma, envío del documento y pegado de preguntas guiados en tres pasos. Formato avanzado y vista del prompt plegables.
 - Opción 2: generación en esta web, experimental, con indicaciones propias.
 - Se conserva el generador y el importador de V1.5, así como los datos locales y el juego de Andalucía.
+
+
+## V1.7 — Guardado y juego de roscos incompletos
+- Se mantiene la clave de almacenamiento local existente. Los roscos personales aparecen también en Biblioteca, solo en el mismo navegador y origen.
+- Se puede jugar con al menos dos preguntas válidas del banco seleccionado. Las demás letras se omiten temporalmente sin borrar datos. En duelo se usan las letras válidas comunes a los dos bancos.
+- La configuración informa de las letras omitidas antes de empezar. El HTML autónomo aplica el mismo comportamiento.
+- Guardar confirma el éxito únicamente si el almacenamiento local acepta la escritura.
