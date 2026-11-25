@@ -86,3 +86,13 @@ Pruebas V1.4: Chromium con HTML cargado en memoria, ejemplo de electricidad de d
 - Se sincronizan los cronómetros visibles y se conserva el modo presentador al deshacer. Reiniciar restaura la partida con la misma configuración.
 - Se conserva el generador y el almacenamiento de V1.9; la edición original de Andalucía no cambia.
 - Pruebas con Chromium en resoluciones 800×600, 1024×600, 1366×768, 1920×1080, 2560×1440 y 390×844. Almacenamiento simulado por restricciones del entorno; quedan pendientes la publicación real y una prueba física de PDI.
+
+
+## V2.1 — Temas luminosos y corrección de importación
+
+- Azul eléctrico LIGHT predeterminado; siete temas claros y el Azul eléctrico oscuro original. Se retiran los demás temas oscuros y no se incluye rojo coral.
+- El importador admite números y etiquetas de niveles y bancos, tablas Markdown, barras escapadas y finales de línea con barra inversa. No asigna ubicaciones ambiguas sin información suficiente.
+- El prompt recomienda texto plano con ocho columnas y numeración explícita. La plantilla JSON incluye todos los niveles y bancos configurados.
+- La vista previa muestra las preguntas completas por nivel y banco, y los errores de ubicación se explican sin mostrar NaN.
+- Prueba de navegador con 104 filas sintéticas, dos niveles y dos bancos: 104 aceptadas, cuatro letras pendientes; recuperación del banco del segundo nivel con almacenamiento simulado.
+- Conserva la clave de almacenamiento de roscos personales y el modo PDI de V2.0. El texto exacto de la incidencia y el despliegue real quedan pendientes de prueba.
