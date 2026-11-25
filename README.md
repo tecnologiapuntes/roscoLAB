@@ -1,4 +1,4 @@
-# ROSCO LAB V1.3 · Tecnología Insti
+# ROSCO LAB V1.4 · Tecnología Insti
 
 Web estática para crear y jugar a roscos de cualquier materia. Sin cuentas ni claves de servicios de IA. Conserva la colección local `roscolab.v1.collection` y la edición original 4D Andalucía.
 
@@ -28,3 +28,12 @@ Sintaxis JavaScript validada. Chromium: generación desde texto y DOCX, revisió
 Se elimina la generación de huecos del extractor. Las definiciones deben estar completas y comenzar con una categoría conceptual reconocible; el filtro es deliberadamente conservador y puede omitir definiciones válidas. La IA local y el asistente externo reciben instrucciones estilo Pasapalabra. El generador local rechaza pistas con huecos y algunos fragmentos incompletos; no garantiza la corrección semántica. Los juegos previos no se modifican.
 
 Pruebas adicionales V1.3: sintaxis JS y Chromium con el HTML cargado en memoria; el texto de ejemplo produjo 10 definiciones válidas de 27 letras seleccionadas, dejando 17 pendientes, sin aceptar las frases problemáticas reproducidas de la captura. Un modelo local simulado devolvió una definición y tres pistas inválidas (dos huecos y una frase truncada): solo se aceptó la definición. No se verificó una ejecución real de Gemini Nano ni del lector PDF en esta revisión.
+
+## Cambios V1.4
+- Prioridad estricta a respuestas que empiezan por la letra; las alternativas no desplazan estas respuestas.
+- IA local: peticiones en lotes pequeños, segundo intento de iniciales y alternativa final. Se conservan las respuestas válidas.
+- Extracción: reconoce más definiciones explícitas y algunos saltos de línea de PDF; no inventa conceptos ausentes.
+- El resultado indica cuántas letras quedan pendientes. El documento sigue siendo la referencia si está activada la opción de limitar al material.
+- La generación puede tardar más con IA local por las peticiones adicionales.
+
+Pruebas V1.4: Chromium con HTML cargado en memoria, ejemplo de electricidad de diez definiciones (10 de 27 letras, todas de inicio), apertura del editor sin errores y modelo local simulado con respuesta de tipo contiene rechazada y recuperación posterior de A. No se ha probado Gemini Nano real ni el PDF del usuario.
