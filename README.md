@@ -46,3 +46,8 @@ Pruebas V1.4: Chromium con HTML cargado en memoria, ejemplo de electricidad de d
 - El extractor y Gemini Nano permanecen en la pestaña experimental. WebLLM se ha estudiado como alternativa (https://webllm.mlc.ai/); requiere WebGPU y descarga de modelos y no se integra en esta versión. Sin API, sin servidor nuevo y sin registro obligatorio en Rosco LAB.
 - Prueba rápida: en Crear con IA, elige 10 letras, un nivel y un banco. Abre `ejemplo-importacion-electricidad.txt` en el paso 3; comprueba las preguntas y abre el editor.
 - Pruebas: JavaScript validado y Chromium con HTML cargado en memoria. Tabla Markdown, rechazo de huecos, corrección del tipo, reparación CSV no destructiva, JSON parcial con dos niveles y dos bancos, guardado en sesión. El entorno bloqueó navegación a archivos locales; no se ha probado la publicación, la persistencia real, las respuestas reales de servicios externos ni los modelos locales. Los servicios externos pueden cambiar sus condiciones. No compartas datos personales del alumnado.
+
+## V1.6 — Instrucciones más sencillas
+- Opción 1: IA externa recomendada, copia de instrucciones, elección de plataforma, envío del documento y pegado de preguntas guiados en tres pasos. Formato avanzado y vista del prompt plegables.
+- Opción 2: generación en esta web, experimental, con indicaciones propias.
+- Se conserva el generador y el importador de V1.5, así como los datos locales y el juego de Andalucía.
