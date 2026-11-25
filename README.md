@@ -67,3 +67,11 @@ Pruebas V1.4: Chromium con HTML cargado en memoria, ejemplo de electricidad de d
 - Barra superior más clara para PDI: modo presentador, pantalla completa, reiniciar, pausar y finalizar.
 - Pistas ocultas de momento, tal como se pidió.
 - Se mantiene **Ver solución** y **Deshacer** como acciones auxiliares.
+
+
+## V1.9 — Guardado más claro y ajuste automático de pantalla
+
+- Las tarjetas de los roscos muestran ahora **preguntas completas / preguntas totales**, para no confundir los huecos con contenido realmente rellenado.
+- En el editor se muestra un resumen por **nivel** y por **banco** con las preguntas completas de cada uno.
+- Al guardar, Rosco LAB indica cuántas preguntas completas tiene el rosco y avisa si hay niveles sin contenido completo.
+- La pantalla de juego se ajusta mejor de forma automática a distintos tamaños de monitor, pantalla o PDI.
